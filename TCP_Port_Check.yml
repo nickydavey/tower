@@ -3,5 +3,5 @@
   gather_facts: false
   tasks:
           - wait_for: host=192.168.1.44 port=22 timeout=1
-           - debug:
+          - debug:
                    msg: "SUCCESS: Port Check Succeeded"
