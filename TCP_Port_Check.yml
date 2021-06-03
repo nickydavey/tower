@@ -4,4 +4,4 @@
   tasks:
           - wait_for: host=192.168.1.44 port=22 timeout=1
           - debug:
-                   msg: "SUCCESS: Port Check Succeeded"
+                   msg: "SUCCESS: Port Open on Host"
