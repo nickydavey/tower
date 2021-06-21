@@ -2,6 +2,6 @@
 - hosts: localhost
   gather_facts: false
   tasks:
-          - wait_for: host=192.168.1.44 port=22 timeout=1
+          - wait_for: host=192.168.1.45 port=22 timeout=1
           - debug:
                    msg: "SUCCESS-3: Port Open on Host"
